@@ -14,7 +14,7 @@ function currentLine (KatzDeliLine) {
   if (KatzDeliLine.length > 0) {
     var line = [];
     for (let i=0; i<KatzDeliLine.length; i++)
-    line.push(" " + (i+1) + ". " + )
+    line.push(" " + (i+1) + ". " + KatzDeliLine[i])
     return 
   }
   

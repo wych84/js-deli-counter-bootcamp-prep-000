@@ -4,10 +4,10 @@ function takeANumber (KatzDeliLine, name) {
 }
 
 function nowServing (line) {
-  if line === []
-  return "There is nobody waiting to be served!"
+  if (line.length > 0)
+  return 
   else
   return line[0]
   }
   line.shift[0]
-}
+}"There is nobody waiting to be served!"

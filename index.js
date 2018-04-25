@@ -3,9 +3,9 @@ function takeANumber (KatzDeliLine, name) {
   return "Welcome, " + name + "." + " You are number " + KatzDeliLine.length + " in line.";
 }
 
-function nowServing (line) {
+function nowServing (person) {
   if (line.length > 0)
-  return "Currently serving " line + "."
+  return "Currently serving " person + "."
   else
   return line[0]
   }

@@ -1,6 +1,5 @@
 function takeANumber (KatzDeliLine, name) {
-  KatzDeliLine = [];
-  KatzDeliLine.push("Welcome, ${names[i]}. You are number ${i + 1} in line.");
+  KatzDeliLine.push(name);
   }
 return KatzDeliLine;
 }

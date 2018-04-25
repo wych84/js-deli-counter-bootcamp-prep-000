@@ -11,5 +11,7 @@ function nowServing (person) {
 }
 
 function currentLine (KatzDeliLine) {
+  if (KatzDeliLine.length > 0)
+  else
   
 }

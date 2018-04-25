@@ -4,6 +4,9 @@ function takeANumber (KatzDeliLine, name) {
 }
 
 function nowServing (line) {
+  if line.empty? 
+  
+  
   var first = line[0]
   return first
   line.shift[0]

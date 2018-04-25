@@ -13,7 +13,7 @@ function nowServing (person) {
 function currentLine (KatzDeliLine) {
   if (KatzDeliLine.length > 0) {
     var line = [];
-    for (let i=0; i<KatzDeliLine.length; i++)
+    for (let i=0; i<KatzDeliLine.length; i++) {
     line.push(" " + (i+1) + ". " + KatzDeliLine[i]);
   }
   return "The line is currently:" + line;

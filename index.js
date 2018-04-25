@@ -1,1 +1,1 @@
-function take
+function takeANumber ()

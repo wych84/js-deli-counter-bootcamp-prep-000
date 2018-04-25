@@ -10,4 +10,6 @@ function nowServing (person) {
   return "There is nobody waiting to be served!";
 }
 
-function currentLine ()
+function currentLine (KatzDeliLine) {
+  
+}

@@ -5,7 +5,7 @@ function takeANumber (KatzDeliLine, name) {
 
 function nowServing (line) {
   if (line.length > 0)
-  return 
+  return "Currently serving " line + "."
   else
   return line[0]
   }

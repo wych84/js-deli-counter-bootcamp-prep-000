@@ -14,6 +14,7 @@ function currentLine (KatzDeliLine) {
   if (KatzDeliLine.length > 0) {
     var line = [];
     for (let i=0; i<line.length; i++)
+    line.push()
     return 
   }
   

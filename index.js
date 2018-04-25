@@ -13,7 +13,8 @@ function nowServing (person) {
 function currentLine (KatzDeliLine) {
   if (KatzDeliLine.length > 0) {
     var line = [];
-    for 
+    for (let i=0; i>line.length; i++)
+    return 
   }
   
   else
